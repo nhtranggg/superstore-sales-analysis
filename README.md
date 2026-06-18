@@ -7,7 +7,7 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 
 ## Business Questions
 - Which regions and categories drive the most sales, and how concentrated is that dependency?
-- How has overall sales trended chronologically across years and quarters? *(Excel)*
+- How has overall sales grown year over year? *(Excel)*
 - Does any quarter show a recurring seasonal pattern across years, or are spikes isolated events? *(Power BI)*
 - What are the top-performing cities and products? *(Power BI)*
 - Is year-over-year growth accelerating or decelerating, and what might explain the trend?
@@ -35,9 +35,9 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 ## Key Insights
 - **West region** leads in sales, followed by Central, East, and South — likely driven by a denser network of high-revenue cities (Houston, Los Angeles, San Francisco all rank in the top 5). Worth investigating whether this is city-density advantage or a true regional preference, to decide if the same playbook can lift underperforming regions.
 - **Furniture** dominates revenue at **~$512M (51.53%)**, with Technology (27.65%) and Office Supplies (20.82%) splitting the remainder — this concentration in a single category is a potential risk if Furniture demand softens, and warrants monitoring category diversification over time.
-- The Excel trend view shows a **sharp Q4-2015 spike**, followed by a steep drop, then a gradual climb through 2018 — the sharp reversal right after the spike suggests it was an isolated event rather than sustained demand, though the specific cause isn't identifiable from this dataset alone. This volatility should be excluded when setting realistic future targets.
-- The Power BI quarter view shows a **sharp Q3-2017 spike** that stands out from otherwise steady quarterly performance — without a recurring pattern in other years' Q3, this points to an isolated event in 2017 rather than true seasonality. Forecasting should not assume this surge will repeat.
-- **YoY growth accelerated then sharply decelerated** — 17.08% (2016) → 25.96% (2017) → 14.13% (2018) — the 2017 peak aligns with the Q3-2017 spike noted above, suggesting that year's growth may have been driven by the same isolated event rather than sustained momentum. The 2018 slowdown could reflect a return to baseline rather than genuine deceleration, and is worth investigating further.
+- Total sales grew steadily year over year — $186M (2015) → $218M (2016) → $275M (2017) → $314M (2018) — indicating consistent overall business growth across the period
+- **Q3-2017 stands out with a sharp spike to $103M**, well above the surrounding quarters (Q2-2017: $54M, Q4-2017: $86M) — without a similar spike in Q3 of other years, this looks like an isolated event in 2017 rather than a recurring seasonal pattern. Forecasting should not assume this surge will repeat.
+- **YoY growth accelerated then decelerated** — 17.08% (2016) → 25.96% (2017) → 14.13% (2018) — the 2017 peak coincides with the Q3-2017 spike, suggesting that year's growth may have been partly driven by this isolated event rather than sustained momentum. The 2018 slowdown could reflect a return to baseline, worth investigating further.
 
 ## Files
 - `Excel version/Excel dashboard.pdf` — Excel dashboard export (PDF)
