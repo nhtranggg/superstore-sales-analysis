@@ -26,10 +26,10 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 ## Dashboard Preview
 
 ### Excel Version
-![Excel Dashboard](excel-version/Superstore%20Sales%20dashboard-Excel.pdf)
+![Excel Dashboard](Excel%20version/Excel%20dashboard.png)
 
 ### Power BI Version
-![Power BI Dashboard](power-bi-version/Superstore%20Sales%20dashboard-Power%20BI.pdf)
+![Power BI Dashboard](Power%20BI%20version/Power%20BI%20dashboard.png)
 
 ## Key Insights
 - West region leads in sales, followed by Central, East, and South
@@ -40,8 +40,12 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 ## Files
 ```
 superstore-sales-analysis/
-├── excel-version/
-│   └── Superstore Sales dashboard-Excel.pdf
-└── power-bi-version/
-    └── Superstore Sales dashboard-Power BI.pdf
+├── Excel version/
+│   ├── Excel dashboard.pdf
+│   ├── Excel dashboard.png
+│   └── Superstore Sales dataset.xlsx
+└── Power BI version/
+    ├── Power BI dashboard.pdf
+    ├── Power BI dashboard.png
+    └── Superstore Sales dashboard.pbix
 ```
