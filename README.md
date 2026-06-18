@@ -6,11 +6,11 @@ Superstore sales dashboard built in both Microsoft Excel and Power BI — compar
 This project analyzes $993M in sales data across 4 regions and 3 product categories, built twice using different tools: Excel (pivot tables, dynamic formulas) and Power BI (DAX measures, interactive visuals). The two versions take complementary analytical angles — the Excel dashboard visualizes sales chronologically across quarters to reveal long-term trend, while the Power BI dashboard groups quarters across years to reveal seasonality patterns within each quarter. The Power BI version also extends the analysis further with city-level and product-level breakdowns, plus a custom Calendar table for accurate YoY growth calculations.
 
 ## Business Questions
-- Which regions and categories drive the most sales?
+- Which regions and categories drive the most sales, and how concentrated is that dependency?
 - How has overall sales trended chronologically across years and quarters? *(Excel)*
-- Does any quarter consistently outperform others across years, revealing a seasonal pattern? *(Power BI)*
+- Does any quarter show a recurring seasonal pattern across years, or are spikes isolated events? *(Power BI)*
 - What are the top-performing cities and products? *(Power BI)*
-- What is the year-over-year growth trend?
+- Is year-over-year growth accelerating or decelerating, and what might explain the trend?
 
 ## Tools & Skills
 
@@ -34,10 +34,10 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 
 ## Key Insights
 - **West region** leads in sales, followed by Central, East, and South — likely driven by a denser network of high-revenue cities (Houston, Los Angeles, San Francisco all rank in the top 5). Worth investigating whether this is city-density advantage or a true regional preference, to decide if the same playbook can lift underperforming regions.
-- **Furniture** is the top-performing category at **~$512M (51.53%)** of total sales — the underlying driver (higher unit price, larger order volume, or both) is unclear from available data and would need further breakdown by average order value. Given its outsized share, even small margin improvements here would have greater bottom-line impact than equivalent gains elsewhere.
+- **Furniture** dominates revenue at **~$512M (51.53%)**, with Technology (27.65%) and Office Supplies (20.82%) splitting the remainder — this concentration in a single category is a potential risk if Furniture demand softens, and warrants monitoring category diversification over time.
 - The Excel trend view shows a **sharp Q4-2015 spike**, followed by a steep drop, then a gradual climb through 2018 — the sharp reversal right after the spike suggests it was an isolated event rather than sustained demand, though the specific cause isn't identifiable from this dataset alone. This volatility should be excluded when setting realistic future targets.
 - The Power BI quarter view shows a **sharp Q3-2017 spike** that stands out from otherwise steady quarterly performance — without a recurring pattern in other years' Q3, this points to an isolated event in 2017 rather than true seasonality. Forecasting should not assume this surge will repeat.
-- **YoY growth reached 14.13%** in the most recent comparison — a healthy trajectory, but since the 2017 Q3 anomaly inflates that year's base, this number may partly reflect a one-time bump rather than fully organic growth. Worth recalculating YoY excluding the anomaly to see the underlying trend.
+- **YoY growth accelerated then sharply decelerated** — 17.08% (2016) → 25.96% (2017) → 14.13% (2018) — the 2017 peak aligns with the Q3-2017 spike noted above, suggesting that year's growth may have been driven by the same isolated event rather than sustained momentum. The 2018 slowdown could reflect a return to baseline rather than genuine deceleration, and is worth investigating further.
 
 ## Files
 - `Excel version/Excel dashboard.pdf` — Excel dashboard export (PDF)
