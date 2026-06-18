@@ -36,7 +36,7 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 - West region leads in sales, followed by Central, East, and South
 - Furniture is the top-performing category, generating ~$512M (51.53%) of total sales
 - The Excel trend view shows overall sales growing across years, with a sharp Q4-2015 spike followed by steadier growth into 2018
-- The Power BI quarter-comparison view shows Q3 consistently outperforming other quarters across multiple years — a recurring seasonal pattern worth planning around
+- The Power BI quarter-comparison view shows a sharp Q3-2017 spike that stands out from otherwise steady performance across quarters — likely a one-time event worth investigating rather than a recurring seasonal pattern
 - YoY growth reached 14.13% in the most recent year-over-year comparison
 
 ## Files
