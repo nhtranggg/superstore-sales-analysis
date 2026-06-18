@@ -33,11 +33,11 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 ![Power BI Dashboard](Power%20BI%20version/Power%20BI%20dashboard.png)
 
 ## Key Insights
-- West region leads in sales, followed by Central, East, and South
-- Furniture is the top-performing category, generating ~$512M (51.53%) of total sales
-- The Excel trend view shows overall sales growing across years, with a sharp Q4-2015 spike followed by steadier growth into 2018
-- The Power BI quarter-comparison view shows a sharp Q3-2017 spike that stands out from otherwise steady performance across quarters — likely a one-time event worth investigating rather than a recurring seasonal pattern
-- YoY growth reached 14.13% in the most recent year-over-year comparison
+- **West region** leads in sales, followed by Central, East, and South — likely driven by a denser network of high-revenue cities (Houston, Los Angeles, San Francisco all rank in the top 5). Worth investigating whether this is city-density advantage or a true regional preference, to decide if the same playbook can lift underperforming regions.
+- **Furniture** is the top-performing category at **~$512M (51.53%)** of total sales — the underlying driver (higher unit price, larger order volume, or both) is unclear from available data and would need further breakdown by average order value. Given its outsized share, even small margin improvements here would have greater bottom-line impact than equivalent gains elsewhere.
+- The Excel trend view shows a **sharp Q4-2015 spike**, followed by a steep drop, then a gradual climb through 2018 — the sharp reversal right after the spike suggests it was an isolated event rather than sustained demand, though the specific cause isn't identifiable from this dataset alone. This volatility should be excluded when setting realistic future targets.
+- The Power BI quarter view shows a **sharp Q3-2017 spike** that stands out from otherwise steady quarterly performance — without a recurring pattern in other years' Q3, this points to an isolated event in 2017 rather than true seasonality. Forecasting should not assume this surge will repeat.
+- **YoY growth reached 14.13%** in the most recent comparison — a healthy trajectory, but since the 2017 Q3 anomaly inflates that year's base, this number may partly reflect a one-time bump rather than fully organic growth. Worth recalculating YoY excluding the anomaly to see the underlying trend.
 
 ## Files
 - `Excel version/Excel dashboard.pdf` — Excel dashboard export (PDF)
