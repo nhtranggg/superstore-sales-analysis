@@ -38,14 +38,9 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 - YoY growth reached 14.13% in the most recent year-over-year comparison
 
 ## Files
-```
-superstore-sales-analysis/
-├── Excel version/
-│   ├── Excel dashboard.pdf
-│   ├── Excel dashboard.png
-│   └── Superstore Sales dataset.xlsx
-└── Power BI version/
-    ├── Power BI dashboard.pdf
-    ├── Power BI dashboard.png
-    └── Superstore Sales dashboard.pbix
-```
+- `Excel version/Excel dashboard.pdf` — Excel dashboard export (PDF)
+- `Excel version/Excel dashboard.png` — Excel dashboard export (image)
+- `Excel version/Superstore Sales dataset.xlsx` — Source data and Excel dashboard
+- `Power BI version/Power BI dashboard.pdf` — Power BI dashboard export (PDF)
+- `Power BI version/Power BI dashboard.png` — Power BI dashboard export (image)
+- `Power BI version/Superstore Sales dashboard.pbix` — Power BI dashboard file
