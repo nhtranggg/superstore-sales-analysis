@@ -3,12 +3,13 @@
 Superstore sales dashboard built in both Microsoft Excel and Power BI — comparing tool approaches on the same dataset to demonstrate cross-platform BI skills.
 
 ## Overview
-This project analyzes $993M in sales data across 4 regions and 3 product categories, built twice using different tools: Excel (pivot tables, dynamic formulas) and Power BI (DAX measures, interactive visuals). The Power BI version extends the analysis further with city-level and product-level breakdowns, plus a custom Calendar table for accurate YoY growth calculations.
+This project analyzes $993M in sales data across 4 regions and 3 product categories, built twice using different tools: Excel (pivot tables, dynamic formulas) and Power BI (DAX measures, interactive visuals). The two versions take complementary analytical angles — the Excel dashboard visualizes sales chronologically across quarters to reveal long-term trend, while the Power BI dashboard groups quarters across years to reveal seasonality patterns within each quarter. The Power BI version also extends the analysis further with city-level and product-level breakdowns, plus a custom Calendar table for accurate YoY growth calculations.
 
 ## Business Questions
 - Which regions and categories drive the most sales?
-- How does performance vary by quarter and year?
-- What are the top-performing cities and products?
+- How has overall sales trended chronologically across years and quarters? *(Excel)*
+- Does any quarter consistently outperform others across years, revealing a seasonal pattern? *(Power BI)*
+- What are the top-performing cities and products? *(Power BI)*
 - What is the year-over-year growth trend?
 
 ## Tools & Skills
@@ -34,7 +35,8 @@ This project analyzes $993M in sales data across 4 regions and 3 product categor
 ## Key Insights
 - West region leads in sales, followed by Central, East, and South
 - Furniture is the top-performing category, generating ~$512M (51.53%) of total sales
-- Sales show a recurring Q4 surge pattern across multiple years
+- The Excel trend view shows overall sales growing across years, with a sharp Q4-2015 spike followed by steadier growth into 2018
+- The Power BI quarter-comparison view shows Q3 consistently outperforming other quarters across multiple years — a recurring seasonal pattern worth planning around
 - YoY growth reached 14.13% in the most recent year-over-year comparison
 
 ## Files
