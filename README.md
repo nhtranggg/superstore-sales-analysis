@@ -1,2 +1,47 @@
-# superstore-sales-analysis
-Superstore sales analysis in both Excel and Power BI — comparing approaches across the same $993M dataset with 4 regions and 3 categories
+# Superstore Sales Analysis
+
+Superstore sales dashboard built in both Microsoft Excel and Power BI — comparing tool approaches on the same dataset to demonstrate cross-platform BI skills.
+
+## Overview
+This project analyzes $993M in sales data across 4 regions and 3 product categories, built twice using different tools: Excel (pivot tables, dynamic formulas) and Power BI (DAX measures, interactive visuals). The Power BI version extends the analysis further with city-level and product-level breakdowns, plus a custom Calendar table for accurate YoY growth calculations.
+
+## Business Questions
+- Which regions and categories drive the most sales?
+- How does performance vary by quarter and year?
+- What are the top-performing cities and products?
+- What is the year-over-year growth trend?
+
+## Tools & Skills
+
+### Excel Version
+- Dynamic formulas and pivot tables
+- KPI cards (Total Sales, Top Region, Top Category, YoY Growth)
+- Region and Year slicers with real-time updates
+
+### Power BI Version
+- DAX measures including a custom Calendar table and DATEADD-based YoY Growth calculation
+- Top 10 Cities and Top 10 Products breakdown
+- Interactive Region and Year filtering
+
+## Dashboard Preview
+
+### Excel Version
+![Excel Dashboard](excel-version/Superstore%20Sales%20dashboard-Excel.pdf)
+
+### Power BI Version
+![Power BI Dashboard](power-bi-version/Superstore%20Sales%20dashboard-Power%20BI.pdf)
+
+## Key Insights
+- West region leads in sales, followed by Central, East, and South
+- Furniture is the top-performing category, generating ~$512M (51.53%) of total sales
+- Sales show a recurring Q4 surge pattern across multiple years
+- YoY growth reached 14.13% in the most recent year-over-year comparison
+
+## Files
+```
+superstore-sales-analysis/
+├── excel-version/
+│   └── Superstore Sales dashboard-Excel.pdf
+└── power-bi-version/
+    └── Superstore Sales dashboard-Power BI.pdf
+```
